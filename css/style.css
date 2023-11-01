@@ -36,14 +36,33 @@ a {
 
 a:hover {
   color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul, ol {
-  list-style-type: disc;
+  list-style-type: none;
   color: #fff;
-  margin-left: 20px;
+  margin-left: 0;
 }
+
+header {
+  float: left;
+  width: 100%;
+  background-color: #007BFF;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
 
 
 
