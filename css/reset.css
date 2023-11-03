@@ -1,80 +1,33 @@
-body, h1, h2, h3, p, ul, ol, li, dl, dt, dd, blockquote, figure, fieldset, form, legend, textarea, pre, iframe, hr, table, tr, th, td, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-
-body, h1, h2, h3, p, figure, blockquote, dl, dd, ul, ol, li, table, th, td, menu, details {
-    line-height: 1.5;
+body, html {
+  height: 100%;
 }
 
-
-ul, ol {
-    list-style: none;
+body {
+  line-height: 1;
 }
 
-
-a {
-    text-decoration: none;
-    outline: none;
+ol, ul {
+  list-style: none;
 }
-
-
-button, input, select, textarea {
-    font-size: 100%;
-    margin: 0;
-    vertical-align: baseline;
-    *vertical-align: middle; /* For IE 6, 7, and 8 */
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
 
 blockquote, q {
-    quotes: none;
+  quotes: none;
 }
 
-
-sub, sup {
-    font-size: 100%;
-    position: relative;
-    vertical-align: baseline;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
 }
 
-
-pre {
-    white-space: pre-wrap;
-    line-height: 1.5;
-}
-
-
-hr {
-    clear: both;
-}
-
-
-[hidden] {
-    display: none;
-}
-
-
-mark {
-    background: none;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
