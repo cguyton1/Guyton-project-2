@@ -30,8 +30,8 @@ p {
 img {
   max-width: 50%;
   height: auto;
-  display: inline;
-  margin: 10px auto;
+  display: block;
+  margin: 0 auto;
 }
 
 a {
