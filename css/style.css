@@ -61,8 +61,10 @@ nav ul {
 nav li {
   float: left;
   margin-right: 20px;
+  background-color: transparent;
   border: 1px solid #fff;
 }
+
 
 
 
